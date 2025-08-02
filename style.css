@@ -755,84 +755,72 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.petraarea{
-    background: #222222;
-    color: white;
-    padding-left: 150px;
-    text-align: left;
+/*  top_footerarea  */
 
+.foot_row ul li {
+    list-style: none;
+    padding-top: 5px;
 }
-.petraarea img{
-    margin-top: 20px;
-    width: 60%;
-    margin-bottom: 5px;
+
+.foot_row ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
 }
-.linkbox{
-    background:#444444;
+
+.foot_row ul li i {
+    border-radius: 50%;
+    background-color: #444444;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.foot_1 {
+    padding: 30px 0px 30px 0px;
+    background-color: #222222;
+}
+
+.image img {
+    width: 70%;
+    height: auto;
+    text-align: center;
+}
+
+.image p {
+    color: #EDF0F6;
+    padding: 10px 20px 0px 40px;
+    text-align: left;
+    font-family: Poppins;
+}
+
+     /*  footerarea  */
+
+.foot_2 {
+    background-color: #070707;
+    color: white;
+}
+
+.foot_2 p {
+    padding-top: 12px;
+}
+
+.button_1 {
     border-radius: 20px;
-    width: 130px;
-    height: 25px;
-    margin-top: 20px;
-    text-align: left;
-    margin-bottom: 10px;
-}
-.linkbox h6{
-    padding-top: 2px;
-    text-align: left;
-    
-    /* padding-left: 15px; */
-}
-.petraarea li{
-    text-align: left;
-}
-/* .petraarea{
-    position: relative;
-
-}
-.petra{
-    background: #222222;
-} */
-/* .petrabox{
-    position: absolute;
-    top:20px;
-    left: 170px;
-    padding-right: 1000px;
+    background: #444444;
     color: white;
-}
-.petrabox img{
-}*/
-.foot{
-    margin-top: 0px;
-    background: #070707;
-    color: white;
-    
-    
-}
-.foot p{
-    text-align: left;
-    size: 18px;
-    /* font: normal normal normal 18px/27px Poppins; */
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-    margin-left: 42px;
-    margin-top: 10px;
-} 
-.m{
-    background: red url('img/Rectangle\ 18.png') no-repeat;
-}
-.pp{
-    background: yellow url('img/appli10_img.png');
-}
-.pro{
-    margin-top: 200px;
-    /* background: white; */
-}
-.bk{
-    background: #3B5998;
+    width: 120px;
+    text-align: center;
+    margin-left: 25px;
 }
 
-.nd img{
-    width: 100%;
-    /* background: #3b5998 url('img/back-asset.png') no-repeat; */
+.button_2 {
+    padding-left: 10px;
+}
+
+.button_2 i {
+    border-radius: 50%;
+    background: #444444;
+    color: white;
+    padding: 10px;
+    margin: 10px 5px 10px 0px;
 }
