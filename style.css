@@ -77,12 +77,15 @@ body{
 }
 .about{
     /* background: #3d5ca0; */
-    background: white;
+    /* background: white; */
     /* background: transparent; */
     text-align:center;
     margin-top:50px;
     /* position: relative; */
 
+}
+.ab{
+    background: white;
 }
 
 .about img{
@@ -112,11 +115,13 @@ body{
 #f{
     /* width: 500px;
     height: 30px; */
-    background: red;
+    /* background: red; */
     z-index: 10 !important;
     position: absolute;
-    top: 100px;
+    top: 260px;
     text-align: left;
+    padding-right: 200px;
+    padding-left: 20px;
 
 }
 .c9{
@@ -127,6 +132,7 @@ body{
     z-index: 5 !important;
     position: absolute;
     left: 100px;
+    top: 100px;
 }
 /* .od{
     position: absolute;
@@ -502,33 +508,46 @@ body{
 
 .application{
     background: white;
+    position: relative;
 }
-.app2{
+.app2 a{
+    text-decoration: none;
+    color: black;
 }
 .application h6{
     color: rgb(15, 15, 15);
 } 
-.box2{    
-    background: rgb(255, 255, 255);
-    float: left;
-    margin-bottom: 10px;
-    box-shadow: 0px 0px 10px #0000002B;;
-    width: 157px;
-    height: 180px;
+
+.box3{
+    box-shadow:0px 0px 15px #c6d0e4;
+    margin-left:px;
+    padding:20px;
+    margin-top:20px;
+    text-align:center;
+    font-size:12px;
+    /* background-color:rgb(210, 12, 12); */
+   
 }
-.imgbox{
-    
+.im{
+    width: 100px;
 }
-.imgbox h6{
-    margin-top: 10px;
-    text-align: center;
+
+.box3 h5{
+    font-size:12px !important;
+    font-weight:bold;
+    font-family:Nunito;
+    margin:0;
+    margin-top:15px; 
+    margin-bottom: 30px;
 }
-.imgbox img{
-    margin: 10px 45px;
-    width: 40%;
+.ep{
+    margin-top: 15px;
 }
+
+
 .customer{
     background: whitesmoke;
+    /* background: #3b5998; */
 }
 .customer h3{
     text-align: left;
@@ -539,15 +558,33 @@ body{
 }
 .color2{
     background: #3d5ca0;
-    /* height: 400px; */
-    margin-bottom: 400px;
+    height: 400px;
+    /* margin-bottom: 400px; */
     /* position: relative; */
     text-align: left !important;
     color: white;
 }
 .color2 img{
     width: 100%;
-    transform: translate(0, -80px);
+    transform: translate(15px, -80px);
+}
+
+.erl{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #3b5998;
+    /* transform: translate(20px, -300px); */
+ 
+
+}
+.err{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #3b5998;
+    /* transform: translate(400px, -380px) !important; */
+    /* margin-right: 0px !important; */
 }
 .kk{
     position: relative;
@@ -573,7 +610,10 @@ body{
     width: 100%;
     transform: translate(0px, 0px);
 }
-
+.vk{
+    /* background: #070707; */
+    margin: 0px;
+}
 /* .customer{
     position: relative;
 
