@@ -803,7 +803,13 @@ body{
 .foot_2 p {
     padding-top: 12px;
 }
-
+.left{
+    text-align: left;
+    padding-left: 10px;
+}
+.left p{
+    font-size: 12px;
+}
 .button_1 {
     border-radius: 20px;
     background: #444444;
