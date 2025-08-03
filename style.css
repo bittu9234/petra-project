@@ -131,7 +131,7 @@ body {
 /* Business */
 .busi {
   background: #edf0f6;
-  margin-bottom: 20PX;
+  margin-bottom: 20px;
 }
 .busi p {
   color: #3b5998;
@@ -441,9 +441,17 @@ body {
   margin-left: px;
   padding: 20px;
   margin-top: 20px;
-  text-align: center;
-  font-size: 12px;
+  border-radius: 5px;
+  /* text-align: center;
+  font-size: 12px; */
   /* background-color:rgb(210, 12, 12); */
+}
+.application .box3 a {
+  text-decoration: none;
+}
+.box3 a > h5 {
+  text-decoration: none;
+  color: black;
 }
 .im {
   width: 100px;
@@ -467,21 +475,21 @@ body {
 .customer h6 {
   text-align: right;
   margin-right: 100px !important;
-  
+
   color: #3b5998;
   font-weight: bold;
   margin-top: 70px;
 }
 .customer h1 {
   text-align: right;
- margin-right: 50px !important;
+  margin-right: 50px !important;
   margin-bottom: 70px;
   font-weight: bold;
 }
 
 .color2 {
   background: #3d5ca0;
-  position: relative;
+  /* position: relative; */
   text-align: left !important;
   color: white;
 }
@@ -505,10 +513,10 @@ body {
   font-weight: normal;
   padding-right: 90px;
 }
-.ar{
-    position: relative;
-    height: 100px;
-} 
+.ar {
+  position: relative;
+  height: 150px;
+}
 .customer .arl {
   width: 70px;
   height: 70px;
@@ -538,15 +546,15 @@ body {
 .arr a {
   text-decoration: none;
   color: white;
-    font-size: 60px;
+  font-size: 60px;
   font-weight: bold;
 
   position: absolute;
   transform: translate(1px, -15px);
 }
 
-.icons{
-    position: relative;
+.icons {
+  position: relative;
 }
 .icon1 img {
   width: 50%;
@@ -574,13 +582,10 @@ body {
 
 .icon1 {
   width: 100%;
-  
 }
 .icon2 {
- 
 }
 .icon3 {
- 
 }
 
 .icon3 img {
@@ -606,51 +611,26 @@ body {
   text-align: right;
   float: right;
 }
+.gitarea {
+  margin-top: 20px;
+  background: white;
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.gitarea .gitbox {
+  background: #edf0f6;
+  text-align: center;
+  padding: 20px 5px;
+  margin: 5px 5px;
+}
+.gitbox h1 {
+}
 
-.gitarea{
-    margin-top: 100px;
-    margin-bottom: 50px;
-    /* background: red; */
-    position: relative;
-}
-.ardiv1{
-    color: black;
-    size: 20px;
-    width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  margin-top: 40px;
-  /* background: #3b5998; */
-}
-.ardiv1 a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-size: 60px;
-  font-weight: bold;
-  padding-top: 1000px !important; 
-}
-.ardiv2{
-    color: black;
-    size: 20px;
-    width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  margin-top: 40px;
-  /* background: #3b5998; */
-  margin-left: 100px;
-}
-.ardiv2 a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-size: 60px;
-  font-weight: bold;
-  padding-top: 1000px !important; 
-}
-.b{
-    background: rgb(190, 179, 179);
-}
 /*  top_footerarea  */
-
+.footarea {
+  margin-top: 80 !important;
+}
 .foot_row ul li {
   list-style: none;
   padding-top: 5px;
