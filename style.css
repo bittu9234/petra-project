@@ -465,16 +465,16 @@ body {
   background: whitesmoke;
 }
 .customer h6 {
-  text-align: left;
-  /* margin-right: 150px !important; */
-  margin-left: 1150px !important;
+  text-align: right;
+  margin-right: 100px !important;
+  
   color: #3b5998;
   font-weight: bold;
   margin-top: 70px;
 }
 .customer h1 {
-  text-align: left;
- margin-left: 210px !important;
+  text-align: right;
+ margin-right: 50px !important;
   margin-bottom: 70px;
   font-weight: bold;
 }
